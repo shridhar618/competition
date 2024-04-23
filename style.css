@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+    --green: green;
+    --black: rgb(19, 11, 11);
+    --box-shadow: 0 0.3rem 1rem rgba(0,0,0.1);
+    --border: 1px solid rgba(0,0,0.1);
+
+}
+
+.head{
+    justify-content: left;
+    padding-right: 800px;
+}
+
+
+
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.navbar{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    background: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+li{
+    padding-right: 20px;
+    color: black;
+    font-weight: 350;
+}
+
+
+
+html{
+    font-size: 90%;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+li:hover{
+    font-weight: 400;
+    color: green;
+    transition: 0.3s ease;
+}
+
+form{
+   
+    width: 350px;
+    justify-content: right;
+    padding-left: 1070px;
+
+}
+
+#search-box{
+    border: var(--border);
+}
+
+section{
+    background-image: url(main_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+    width: 100%;
+    height: 800px;
+}
+
+body p{
+    justify-content: right;
+    padding-left: 400px;
+}
+
+h3{
+    color: rgb(250, 246, 246);
+    font-family: serif;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    font-size: xx-large;
+}
+
+button:hover{
+    color: green;
+}
+
+button{
+    background-image: url(https://i.pinimg.com/736x/3c/d3/14/3cd31455d3ca2c485cf781ce56ef0404.jpg);
+
+}
